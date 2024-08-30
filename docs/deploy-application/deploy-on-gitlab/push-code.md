@@ -1,5 +1,3 @@
-<!-- TODO: Update LINK -->
-
 # Push code to opstella
 
 หากไม่ได้เลือก template แต่มี project ที่ต้องการนำขึ้นอยู่แล้ว ให้เลือก blank template **ดังรูป**
@@ -36,4 +34,4 @@ git push -uf origin main
 **Dockerfile** จะใช้สำหรับการ build image เพื่อใช้งานบน kubernetes<br/>
 **.gitlab-ci.yaml** จะใช้สำหรับ config ตัว pipeline ci/cd<br/>
 
-ในขั้นตอนการ run pipeline สามารถอ่านเพิ่มเติมได้ที่ **[Workflow](../workflow/workflow.md)**
+ในขั้นตอนการ run pipeline สามารถอ่านเพิ่มเติมได้ที่ **[Workflow](./workflow.md)**
