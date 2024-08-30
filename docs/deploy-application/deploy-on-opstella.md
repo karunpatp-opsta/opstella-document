@@ -1,5 +1,3 @@
-<!-- TODO: Update LINK -->
-
 # Prepare on Opstella
 
 ในหัวข้อนี้จะอธิบายถึงขั้นตอนการสร้าง **Application** จากบน **Opstella** โดยจะอธิบายตั้งแต่ขั้นตอนเตรียมการก่อนสร้าง **Application** จนไปถึงการขึ้น **Application**
@@ -16,7 +14,7 @@
 
 ![DeployOnOpstella0](/images/deploy-application/deploy-on-opstella/0.png)
 
-**จากรูปตัวอย่าง** จะต้องกรอกข้อมูลที่บังคับให้กรอก คือ ชื่อ Platform และ Resource Quotas ส่วนทางด้านซ้ายมือ คือ ส่วนที่จะเพิ่ม User ลงไป ซึ่งใน Platform จะมี **[Role Admin](../../roleAndPermission/role/admin/admin.md)** ให้เลือกเท่านั้น
+**จากรูปตัวอย่าง** จะต้องกรอกข้อมูลที่บังคับให้กรอก คือ ชื่อ Platform และ Resource Quotas ส่วนทางด้านซ้ายมือ คือ ส่วนที่จะเพิ่ม User ลงไป ซึ่งใน Platform จะมี **[Role Admin](../role-and-permissions/role/admin.md)** ให้เลือกเท่านั้น
 
 และขั้นตอนนี้จะมีการเลือกชุด Devops Tool ที่จะให้ใช้ และรวมไปถึงว่าจะ Deploy บน Environtment Cluster ไหน ซึ่งสามารถดูได้จาก Worker Kubernetes ตาม Host ที่ได้แสดง สามารถแบ่ง Deploy แยกระหว่าง Environtment ได้ หรือ Deploy พร้อมกันมากกว่า 1 ที่ได้ขึ้นอยู่กับชุด Devops Tool ที่เลือกมา **ดังรูป**
 
@@ -57,7 +55,7 @@
 
 ถ้าจะมีการสร้าง Service เพิ่มเติมจะต้องมี CPU Limit ไม่เกิน 2500 millicore และ Memory Limit ไม่เกิน 2500 Mi เป็นต้น
 
-สามารถเพิ่มสิทธิ์ User ได้เช่นกัน โดยมี Role ได้แก่ **[Full-Control](../../roleAndPermission/role/fullControl/fullControl.md)**, **[Production](../../roleAndPermission/role/production/production.md)** และ **[Non-Production ](../../roleAndPermission/role/nonProduction/nonProduction.md)** **ดังรูป**
+สามารถเพิ่มสิทธิ์ User ได้เช่นกัน โดยมี Role ได้แก่ **[Full-Control](../role-and-permissions/role/full-control.md)**, **[Production](../role-and-permissions/role/production.md)** และ **[Non-Production ](../role-and-permissions/role/non-production.md)** **ดังรูป**
 
 ![DeployOnOpstella34](/images/deploy-application/deploy-on-opstella/34.png)
 
@@ -83,8 +81,8 @@
 
 ![DeployOnOpstella4](/images/deploy-application/deploy-on-opstella/4.png)
 
-ซึ่งเมื่อเลือกจะมีรายละเอียดที่ต้องกรอกอีกคือ ชื่อ Component ,Resource Quotas, Port รวมไปถึง Role ของ User ซึ่งใน layer มี 2 Role ได้แก่ **[CICD Dev](../../roleAndPermission/role/cicdDev/cicdDev.md)** และ **[CICD Dev INFRA](../../roleAndPermission/role/cicdDevInfra/cicdDevInfra.md)**
+ซึ่งเมื่อเลือกจะมีรายละเอียดที่ต้องกรอกอีกคือ ชื่อ Component ,Resource Quotas, Port รวมไปถึง Role ของ User ซึ่งใน layer มี 2 Role ได้แก่ **[CICD Dev](../role-and-permissions/role/cicd-dev.md)** และ **[CICD Dev INFRA](../role-and-permissions/role/cicd-dev-infra.md)**
 
 ![DeployOnOpstella5](/images/deploy-application/deploy-on-opstella/5.png)
 
-ในส่วนการ Confirm และ Processing จะเหมือนของ Platform เมื่อเสร็จขั้นตอนทั้งหมดจะได้ Application ที่พร้อม Deploy เบื้องต้น ซึ่งขั้นตอนต่อไป คือ การ Run Pipeline สามารถดูได้ที่ **[Workflow](../deployOnGitlab/workflow/workflow.md)**
+ในส่วนการ Confirm และ Processing จะเหมือนของ Platform เมื่อเสร็จขั้นตอนทั้งหมดจะได้ Application ที่พร้อม Deploy เบื้องต้น ซึ่งขั้นตอนต่อไป คือ การ Run Pipeline สามารถดูได้ที่ **[Workflow](./deploy-on-gitlab/workflow.md)**
