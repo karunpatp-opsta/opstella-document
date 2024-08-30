@@ -1,5 +1,3 @@
-<!-- TODO: Update LINK -->
-
 # Clone from opstella
 
 ในกรณีที่มีการสร้าง **Component** จะมีการสร้าง project บน gitlab เมื่อเราต้องการนำลงมาพัฒนาบนคอมพิวเตอร์ของเราสามารถทำได้โดยการ Clone **มีขั้นตอนดังนี้**
@@ -41,7 +39,7 @@
   - **Edit commit message** แก้ **commit message** ก่อนจะทำการ **merge**
 - **Merge** ทำการ **merge commit** และ **run pipeline** (ถ้ามี และสามารถทำงานได้)
 
-ในส่วนที่ run pipeline เพื่อสร้าง Application ในแต่ environment ต้องทำอย่างไรสามารถดูได้ที่ **[Workflow](../workflow/workflow.md)**
+ในส่วนที่ run pipeline เพื่อสร้าง Application ในแต่ environment ต้องทำอย่างไรสามารถดูได้ที่ **[Workflow](./workflow.md)**
 
 ![DeployOnGitlab35](/images/deploy-application/deploy-on-gitlab/clone/35.png)
 
