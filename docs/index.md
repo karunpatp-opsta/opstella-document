@@ -13,9 +13,38 @@ hero:
 
 features:
   - title: Get Started
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    icon:
+      src: /images/heroes/getting-started.png
+      width: 48
+      height: 48
+    details: รายละเอียดข้อมูลระบบ opstella ทั้งหมด
+    link: /intro/getting-started
   - title: Cluster
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    icon:
+      src: /images/heroes/kubernetes.svg
+      width: 32
+      height: 32
+    details: รายละเอียดคลัสเตอร์ Kubernetes ที่เกี่ยวข้องกับระบบ opstella
+    link: /intro/cluster
   - title: Role and Permissions
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    icon:
+      src: /images/heroes/user.svg
+      width: 32
+      height: 32
+    details: รายละเอียดข้อมูล role และสิทธิ์การเข้าถึงของผู้ใช้งานในแต่ละเลเยอร์ของ opstella และ วิธีการใช้งานเมนูผู้ใช้ (user)
+    link: /role-and-permissions
+  - title: Deploy Application
+    icon:
+      src: /images/heroes/getting-started.png
+      width: 32
+      height: 32
+    details: รายละเอียดขั้นตอนเริ่มต้นจนจบการ Deploy Application
+    link: /deploy-application/deploy-on-opstella
+  - title: Usecases
+    icon:
+      src: /images/heroes/usecase.svg
+      width: 32
+      height: 32
+    details: Case การใช้งานแบบต่างๆ ที่สำคัญๆ
+    link: /usecases
 ---
