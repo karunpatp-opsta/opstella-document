@@ -1,8 +1,6 @@
-<!-- TODO: Update LINK -->
-
 # Using CI
 
-จากส่วนการ Deploy on Gitlab จะพบว่ามีการ Run pipeline จะแบ่งเป็นส่วน CI และ CD ในหัวข้อนี้จะอธิบายในส่วนของ CI ภายใน gitlab ของระบบ opstella ประกอบด้วยอะไร และสามารถแก้ไขในส่วนไหนได้บ้าง ในส่วนของรายละเอียดภายใน template สามารถดูได้ที่ **[Manage Pipeline](../../usecase/managePipeline/managePipeline.md)** และเรื่องของการใช้งาน Onechart ภายใน Opstella ได้ที่ **[Using Onechart](../../usecase/usingOnechart/usingOnechart.md)**
+จากส่วนการ Deploy on Gitlab จะพบว่ามีการ Run pipeline จะแบ่งเป็นส่วน CI และ CD ในหัวข้อนี้จะอธิบายในส่วนของ CI ภายใน gitlab ของระบบ opstella ประกอบด้วยอะไร และสามารถแก้ไขในส่วนไหนได้บ้าง ในส่วนของรายละเอียดภายใน template สามารถดูได้ที่ **[Manage Pipeline](../usecase/manage-pipeline.md)** และเรื่องของการใช้งาน Onechart ภายใน Opstella ได้ที่ **[Using Onechart](../usecase/using-onechart.md)**
 
 ## Gitlab CI
 
