@@ -8,7 +8,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: "/images/opstella-logo.svg", width: 24, height: 24 },
+    // logo: { src: "/images/opstella-logo.svg", width: 24, height: 24 },
     search: {
       provider: "local",
     },
@@ -298,16 +298,16 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   {
-                    text: "Sync Component",
-                    link: "/sync-component",
-                  },
-                  {
                     text: "Sync Platform",
                     link: "/sync-platform",
                   },
                   {
                     text: "Sync Service",
                     link: "/sync-service",
+                  },
+                  {
+                    text: "Sync Component",
+                    link: "/sync-component",
                   },
                   {
                     text: "Sync User",
@@ -338,7 +338,10 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      {
+        icon: "facebook",
+        link: "https://m.me/opstella",
+      },
     ],
   },
 })
