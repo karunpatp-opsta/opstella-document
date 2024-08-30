@@ -1,10 +1,8 @@
-<!-- TODO: Update LINK -->
-
 # Check Code Quality
 
 ![CQ](/images/deploy-application/check-code-quality/1.png)
 
-ขยายจาก **[Using CI](../../deployApplication/usingCI/usingCI.md)** จะมีการทำ code quality โดยใน opstella จะใช้ devops tool อย่าง sonarqube ในการช่วยทำการแสกน code
+ขยายจาก **[Using CI](./using-ci.md)** จะมีการทำ code quality โดยใน opstella จะใช้ devops tool อย่าง sonarqube ในการช่วยทำการแสกน code
 
 ### Sonarqube
 
