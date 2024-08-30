@@ -1,5 +1,3 @@
-<!-- TODO: Update LINK -->
-
 # Using CD
 
 หลังจากที่ได้ทำการ CI แล้ว Pipeline จะทำขั้นตอน CD ซึ่งใน Opstella จะทำขั้นตอนนี้โดยการใช้ **ArgoCD** และ **Onechart** ในการ Deploy Application
@@ -26,7 +24,7 @@
 
 ![CD](/images/deploy-application/using-cd/chartexplain.png)
 
-เราสามารถใช้ **Helm Chart** เดียวในการ Deploy กับหลาย Project ได้ขึ้นอยู่กับว่าจะตอบโจทย์กับแต่ละงานแค่ไหน สามารถดูวิธีแก้ไข helm values ภายใน Opstella ได้ที่ **[Update Application](../../usecase/updateApplication/updateApplication.md)**
+เราสามารถใช้ **Helm Chart** เดียวในการ Deploy กับหลาย Project ได้ขึ้นอยู่กับว่าจะตอบโจทย์กับแต่ละงานแค่ไหน สามารถดูวิธีแก้ไข helm values ภายใน Opstella ได้ที่ **[Update Application](../usecase/update-application.md)**
 
 ## Onechart
 
@@ -52,4 +50,4 @@
 
 ![CD](/images/deploy-application/using-cd/argoproject.png)
 
-สามารถดูรายละเอียดการใช้งาน ArgoCD ได้ที่นี่ **[ArgoCD UI](../../usecase/argocdUI/argocdUI.md)**
+สามารถดูรายละเอียดการใช้งาน ArgoCD ได้ที่นี่ **[ArgoCD UI](../usecase/argocd-ui.md)**
