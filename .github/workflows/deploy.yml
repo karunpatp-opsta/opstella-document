@@ -1,6 +1,6 @@
 # Sample workflow for building and deploying a VitePress site to GitHub Pages
 #
-name: Deploy VitePress site to Pages
+name: Deploy Opstella Doc site to Pages
 
 on:
   # Runs on pushes targeting the `main` branch. Change this to `master` if you're
@@ -34,8 +34,7 @@ jobs:
       - name: Setup Node
         uses: oven-sh/setup-bun@v1
         with:
-          node-version: 20
-          cache: bun # or pnpm / yarn
+          bun-version: latest
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
