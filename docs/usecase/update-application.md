@@ -1,5 +1,3 @@
-<!-- TODO: Update LINK -->
-
 # Update Application
 
 ## แก้ Helm Values
@@ -8,7 +6,7 @@
 
 ![CD](/images/deploy-application/using-cd/editHelm1.png)
 
-เมื่อเปิดขึ้นมาจะพบกับ Helm values ซึ่งหากต้องการปรับให้ทำอะไรได้เพิ่มจึงควรไปศึกษา **[One Chart](../../usecase/usingOnechart/usingOnechart.md)** เพิ่มเติม
+เมื่อเปิดขึ้นมาจะพบกับ Helm values ซึ่งหากต้องการปรับให้ทำอะไรได้เพิ่มจึงควรไปศึกษา **[One Chart](../usecase/using-onechart.md)** เพิ่มเติม
 
 ![CD](/images/deploy-application/using-cd/editHelm2.png)
 
